@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c30t4ih5cbgho"]
+
+[ext_resource type="Script" uid="uid://bmkvp0cqw6yng" path="res://root/artifacts/pirate_ship_game/scenes/player/Player.gd" id="1_veq10"]
+[ext_resource type="Texture2D" uid="uid://cnwwu1wmg34m" path="res://root/packages/kenney_pirate/Spritesheet/shipsMiscellaneous_sheet.png" id="2_e0i0f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ewdl"]
+atlas = ExtResource("2_e0i0f")
+region = Rect2(204, 115, 66, 113)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1tkip"]
+radius = 20.0
+height = 98.0
+
+[node name="Player" type="CharacterBody2D" unique_id=684975614]
+script = ExtResource("1_veq10")
+
+[node name="Ship" type="Sprite2D" parent="." unique_id=393393449]
+texture = SubResource("AtlasTexture_5ewdl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1615995318]
+shape = SubResource("CapsuleShape2D_1tkip")
