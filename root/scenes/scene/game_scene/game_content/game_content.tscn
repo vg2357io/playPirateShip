@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://d1qehwioaldlb"]
 
 [ext_resource type="Script" uid="uid://c5e23i8a611eb" path="res://root/scenes/scene/game_scene/game_content/game_content.gd" id="1_qs7kg"]
+[ext_resource type="PackedScene" uid="uid://c30t4ih5cbgho" path="res://root/scenes/node/game/player/Player.tscn" id="3_ajkph"]
 [ext_resource type="PackedScene" uid="uid://k5xt8llrybgm" path="res://root/scenes/node/menu/menu_button/menu_button.tscn" id="5_kng2e"]
 
 [node name="GameContent" type="Control" unique_id=2140751053]
@@ -33,3 +34,7 @@ theme_override_font_sizes/font_size = 24
 text = " Pause "
 label = "MENU_LABEL_PAUSE"
 padding_spaces = 1
+
+[node name="Game" type="Node2D" parent="." unique_id=1157173333]
+
+[node name="Player" parent="Game" unique_id=684975614 instance=ExtResource("3_ajkph")]

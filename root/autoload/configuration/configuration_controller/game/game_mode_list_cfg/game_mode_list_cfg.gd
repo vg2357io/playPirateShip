@@ -16,7 +16,7 @@ func init_cfg_options() -> void:
 
 
 func get_default_value() -> int:
-	return 1
+	return 0
 
 
 func get_config_value() -> int:

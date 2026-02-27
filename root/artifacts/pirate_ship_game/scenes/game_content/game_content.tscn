@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://ccrcijb3tl6sd"]
-
-[ext_resource type="Script" uid="uid://bvt4h8tta0jf1" path="res://root/artifacts/pirate_ship_game/scenes/game_content/game_content.gd" id="1_oqj4t"]
-[ext_resource type="PackedScene" uid="uid://c30t4ih5cbgho" path="res://root/artifacts/pirate_ship_game/scenes/player/Player.tscn" id="2_24h27"]
-
-[node name="GameContent" type="Node2D" unique_id=1821103664]
-script = ExtResource("1_oqj4t")
-
-[node name="Player" parent="." unique_id=684975614 instance=ExtResource("2_24h27")]

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c30t4ih5cbgho"]
 
-[ext_resource type="Script" uid="uid://bmkvp0cqw6yng" path="res://root/artifacts/pirate_ship_game/scenes/player/Player.gd" id="1_veq10"]
+[ext_resource type="Script" uid="uid://bmkvp0cqw6yng" path="res://root/scenes/node/game/player/Player.gd" id="1_veq10"]
 [ext_resource type="Texture2D" uid="uid://cnwwu1wmg34m" path="res://root/packages/kenney_pirate/Spritesheet/shipsMiscellaneous_sheet.png" id="2_e0i0f"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5ewdl"]
